@@ -3,47 +3,51 @@
 <head>
   <title> WEB1 - Welcome</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a id="처음"/>.
-  <h1><a href="#WEB">WEB</a></h1>
-  <a href="index.html">index로 이동</a>
-  <ol>
-    <li><a href="#HTML">HTML</a></li>
-    <li><a href="#CSS">CSS</a></li>
-    <li><a href="#JavaScript">JavaScript</a></li>
-  </ol>
-  <h2><a id="WEB" name="WEB"/>WEB</h2>
-  <p>
-    This specification defines the 5th major version, second minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.
-  </p>
+  <!-- <a id="처음"/> -->
+  <h1>WEB</h1>
+  <!-- <a href="index.html">index로 이동</a> -->
+  <div id="grid">
+    <ol>
+      <li><a href="#HTML" class="saw">HTML</a></li>
+      <li><a href="#CSS" class="saw" id="active">CSS</a></li>
+      <li><a href="#JavaScript">JavaScript</a></li>
+    </ol>
+    <div id="article">
+      <h2><a id="HTML" name="HTML">HTML</a></h2>
+      <p>
+      <a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">
+      HTML</a>
+      의미 있는 정보를 웹브라우저에 표시했습니다. 이것만으로도 처음에는 행복할 것입니다. 하지만 이 화면을 계속 쳐다보고 있으면 여러가지 불만족이 생겨날꺼예요. 여기서 creating web pages라는 부분이 중요한 내용이라는 생각이 들었다면 어떻게 하고 싶겠어요?
+      이 두 태그는 서로 경쟁관계에 있는데요.
+      <p>
+      <img src="coding12.jpg" width="50%">
+      </p>
+      정보로서 웹이라는 관점에 대해서 생각해 봅시다.
+      </p>
+      <p style="margin-top:30px;">어떤 경쟁관계에 있는가를 통해서
+      또 CSS라는
+      기술도 깜짝 출현을 합니다.
+      CSS 수업은 아니지만
+      CSS를 지배하는 혁명적인 규칙들을
+      접해보실 수 있습니다.
+      </p>
+      <a href="#처음" style="color:red;">맨위로</a>
+      <h2><a name="CSS">CSS</a></h2>
+      <p>
+      The World Wide Web Consortium today launched the Internationalization Initiative to expand core work in further internationalizing the Web. “Supporting the W3C Internationalization Initiative with funding or expertise is a vital way that our Web community creates the future of the global Web,” said Jeff Jaffe, W3C CEO. W3C thanks Alibaba, Apple, Advanced Publishing Lab (Keio University), Monotype, and The Paciello Group who have stepped up as Founding Sponsors. Read about W3C Internationalization and its Sponsorship Program and the press release and testimonials.
+      </p>
+      <a href="#처음">맨위로</a>
 
-  <h2><a id="HTML" name="HTML"/>HTML</h2>
-  <a href="#처음">맨위로</a>
-  <p>
-  <a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">
-  HTML</a>
-  의미 있는 정보를 웹브라우저에 표시했습니다. <strong>이것만으로도 처음에는 <u>행복</u>할 것입니다.</strong> 하지만 이 화면을 계속 쳐다보고 있으면 여러가지 불만족이 생겨날꺼예요. 여기서 creating web pages라는 부분이 중요한 내용이라는 생각이 들었다면 어떻게 하고 싶겠어요?
-  이 두 태그는 서로 경쟁관계에 있는데요.
-  <img src="coding12.jpg" width="50%">
-  </p><p style="margin-top:30px;">어떤 경쟁관계에 있는가를 통해서
-  정보로서 웹이라는 관점에 대해서 생각해 봅시다.
-  또 CSS라는
-  기술도 깜짝 출현을 합니다.
-  CSS 수업은 아니지만
-  CSS를 지배하는 혁명적인 규칙들을
-  접해보실 수 있습니다.
-  </p>
-
-  <h2><a name="CSS"/>CSS</h2>
-  <p>
-  The World Wide Web Consortium today launched the Internationalization Initiative to expand core work in further internationalizing the Web. “Supporting the W3C Internationalization Initiative with funding or expertise is a vital way that our Web community creates the future of the global Web,” said Jeff Jaffe, W3C CEO. W3C thanks Alibaba, Apple, Advanced Publishing Lab (Keio University), Monotype, and The Paciello Group who have stepped up as Founding Sponsors. Read about W3C Internationalization and its Sponsorship Program and the press release and testimonials.
-  </p>
-
-  <h2><a name="JavaScript"/>JavaScript</h2>
-  <p>
-  Consumers want safe and secure access to the Web, entertainment, and information (about the car, weather, traffic, etc.) that will improve driving and work smoothly with other consumer devices.
-  </p>
+      <h2><a name="JavaScript">JavaScript</a></h2>
+      <p>
+      Consumers want safe and secure access to the Web, entertainment, and information (about the car, weather, traffic, etc.) that will improve driving and work smoothly with other consumer devices.
+      </p>
+      <a href="#처음">맨위로</a>
+    </div>
+  </div>
 
   <div id="disqus_thread"></div>
   <script>
@@ -65,6 +69,7 @@
   })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 
 </body>
 </html>
